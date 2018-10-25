@@ -14,6 +14,7 @@ Orange - rgb(222, 147, 59)
 .item3 { grid-area: nav; }
 .item4 { grid-area: about; }
 .item5 { grid-area: bio; }
+.item6 { grid-area: workshop; }
 
 .wrapper {
   display: grid;
@@ -23,7 +24,8 @@ Orange - rgb(222, 147, 59)
     'banner'
     'nav'
     'about'
-    'bio';
+    'bio'
+    'workshop';
 }
 
 .bannerimg {
@@ -34,6 +36,11 @@ Orange - rgb(222, 147, 59)
 .logosm {
   float: left;
   height: 75px;
+}
+
+.wsimg {
+  width: 50%;
+  padding: 15px 3px 0px 3px;
 }
 
 .navicon {
@@ -57,6 +64,36 @@ li {
   font-size: 1.0em;
   line-height: 1.5;
   text-align: center;
+}
+
+.border {
+  border: 3px solid grey;
+  padding: 5px;
+  margin: 5px;
+}
+
+.wstitle {
+  font-size: 1.2em;
+  font-weight: bold; 
+  line-height: 1.5;
+  text-align: left;
+  margin: 5px;
+}
+
+.wscontent {
+  font-size: 1.0em;
+  line-height: 1.5;
+  text-align: left;
+  margin: 5px;
+}
+
+.wscomment {
+  background-color: rgb(222, 147, 59);
+  color: white;
+  padding: 5px;
+  font-size: 1.0em;
+  line-height: 1.2;
+  text-align: right;
 }
 
 .item1 {
@@ -86,4 +123,9 @@ li {
   font-weight: bold;
   text-align: center;
   padding: 5px;
+}
+
+.item6 {
+  padding: 10px;
+  text-align: center;
 }
