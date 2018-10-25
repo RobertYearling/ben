@@ -1,6 +1,7 @@
 /* Colors
 Blue - rgb(39, 54, 70)
 Orange - rgb(222, 147, 59) 
+https://learn.mckimmoncenter.ncsu.edu/search/publicCourseSearchDetails.do?method=load&courseId=7760975
 */
 
 * {
@@ -15,6 +16,9 @@ Orange - rgb(222, 147, 59)
 .item4 { grid-area: about; }
 .item5 { grid-area: bio; }
 .item6 { grid-area: workshop; }
+.item7 { grid-area: appearances; }
+.item8 { grid-area: row; }
+.item9 { grid-area: testimonials; }
 
 .wrapper {
   display: grid;
@@ -25,17 +29,19 @@ Orange - rgb(222, 147, 59)
     'nav'
     'about'
     'bio'
-    'workshop';
+    'workshop'
+    'appearances'
+    'row'
+    'testimonials';
 }
 
+.articles {
+  border-bottom: 2px solid grey;
+  margin: 10px;
+}
 .bannerimg {
   width: 100%;
   padding: 0px;
-}
-
-.logosm {
-  float: left;
-  height: 75px;
 }
 
 .wsimg {
@@ -43,9 +49,18 @@ Orange - rgb(222, 147, 59)
   padding: 15px 3px 0px 3px;
 }
 
+.rowimg {
+  width: 75%;
+  padding: 15px;
+}
+
+.logosm {
+  float: left;
+  height: 75px;
+}
 .navicon {
   float: right;
-  width: 85px;
+  width: 75px;
   padding: 20px;
 }
 
@@ -60,6 +75,13 @@ li {
   text-align: center;
 }
 
+.date {
+  font-size: 1.5em;
+  font-weight: bold; 
+  line-height: 1.5;
+  text-align: center;
+}
+
 .content {
   font-size: 1.0em;
   line-height: 1.5;
@@ -69,6 +91,13 @@ li {
 .border {
   border: 3px solid grey;
   padding: 5px;
+  margin: 5px;
+}
+
+.testimonials {
+  font-size: 1.0em;
+  line-height: 1.5;
+  text-align: left;
   margin: 5px;
 }
 
@@ -91,6 +120,7 @@ li {
   background-color: rgb(222, 147, 59);
   color: white;
   padding: 5px;
+  margin: 5px;
   font-size: 1.0em;
   line-height: 1.2;
   text-align: right;
@@ -127,5 +157,23 @@ li {
 
 .item6 {
   padding: 10px;
+  text-align: center;
+}
+
+.item7 {
+  padding: 10px;
+  text-align: center;
+}
+
+.item8 {
+  background-color: rgb(39, 54, 70);
+  text-align: center;
+}
+
+.item9 {
+
+}
+
+.item10 {
   text-align: center;
 }
