@@ -19,6 +19,7 @@ https://learn.mckimmoncenter.ncsu.edu/search/publicCourseSearchDetails.do?method
 .item7 { grid-area: appearances; }
 .item8 { grid-area: row; }
 .item9 { grid-area: testimonials; }
+.item10 { grid-area: articles; }
 
 .wrapper {
   display: grid;
@@ -32,7 +33,8 @@ https://learn.mckimmoncenter.ncsu.edu/search/publicCourseSearchDetails.do?method
     'workshop'
     'appearances'
     'row'
-    'testimonials';
+    'testimonials'
+    'articles';
 }
 
 .articles {
