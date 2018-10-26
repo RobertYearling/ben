@@ -37,6 +37,8 @@ https://learn.mckimmoncenter.ncsu.edu/search/publicCourseSearchDetails.do?method
     'articles';
 }
 
+/* screen widths smaller than 420px */
+
 .articles {
   border-bottom: 2px solid grey;
   margin: 10px;
