@@ -13,3 +13,24 @@ https://learn.mckimmoncenter.ncsu.edu/search/publicCourseSearchDetails.do?method
 }
 
 .item1 { grid-area: header; }
+.item2 { grid-area: banner; }
+.item3 { grid-area: nav; }
+
+/* screen size smaller than 420px */
+
+.wrapper {
+  display: grid;
+  margin: auto;
+  grid-template-areas:
+    'header'
+    'banner'
+    'nav';
+}
+
+.item1 {
+  background-color: rgb(39, 54, 70);
+  color: white;
+  margin: auto;
+  text-align: center;
+  padding: 3px;
+}

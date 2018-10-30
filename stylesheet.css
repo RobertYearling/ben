@@ -24,6 +24,7 @@ https://learn.mckimmoncenter.ncsu.edu/search/publicCourseSearchDetails.do?method
 .item10 { grid-area: articles; }
 
 /* screen size smaller than 420px */
+
 .wrapper {
   display: grid;
   margin: auto;
@@ -138,7 +139,7 @@ li {
   color: white;
   margin: auto;
   text-align: center;
-  padding: 2px;
+  padding: 3px;
 }
 
 .item2 {
