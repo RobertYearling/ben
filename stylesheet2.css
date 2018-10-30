@@ -1,0 +1,15 @@
+/* Colors
+Blue - rgb(39, 54, 70)
+Orange - rgb(222, 147, 59) 
+https://learn.mckimmoncenter.ncsu.edu/search/publicCourseSearchDetails.do?method=load&courseId=7760975
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Lato, Raleway, sans-serif;
+}
+
+.item1 { grid-area: header; }
