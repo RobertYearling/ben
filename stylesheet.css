@@ -12,6 +12,26 @@ https://learn.mckimmoncenter.ncsu.edu/search/publicCourseSearchDetails.do?method
   font-family: Lato, Raleway, sans-serif;
 }
 
+a:link {
+  color: white; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+}
+
 .item1 { grid-area: header; }
 .item2 { grid-area: banner; }
 .item3 { grid-area: nav; }
@@ -137,6 +157,7 @@ li {
 .item1 {
   background-color: rgb(39, 54, 70);
   color: white;
+  width: 100%;
   margin: auto;
   text-align: center;
   padding: 3px;
@@ -180,4 +201,56 @@ li {
 
 .item10 {
   text-align: center;
+}
+
+/* screen larger than 420px */
+
+@media only screen and (min-width: 420px) {
+  .wrapper {
+    display: grid;
+    margin: auto;
+    grid-template-areas:
+      'header''header'
+      'banner''banner'
+      'nav''nav'
+      'about''about'
+      'bio''bio'
+      'workshop''workshop'
+      'appearances''apperances'
+      'row''row'
+      'testimonials''testimonials'
+      'articles''articles';
+  }
+
+  .articles {
+    display: inline-block;
+    border-bottom: none;
+  }
+
+  li {
+    display: inline-block;
+    color: white;
+    padding: 25px;
+    float: right;
+    vertical-align: middle;
+  }
+
+  .logosm {
+    padding-left: 5px;
+    height: 75px;
+  }
+
+  .navicon {
+    display: none;
+  }
+
+  .wscomment {
+    font-size: 1.3em;
+    line-height: 1.25;
+    padding: 10px;
+  }
+
+  .item3 {
+    background-color: rgb(222, 147, 59);
+  }
 }
